@@ -1,0 +1,33 @@
+/* Style for the search bar */
+.search-container {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+  
+  /* Style for the search bar container */
+  .container {
+    width: 80%;
+    margin: 20px auto;
+  }

@@ -1,0 +1,56 @@
+/* Login.css */
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input {
+    width: 250px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type='submit'] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type='submit']:hover {
+    background-color: #0056b3;
+  }
+  
+  p {
+    margin: 10px 0;
+  }
+  
+  Link {
+    text-decoration: none;
+    color: blue;
+  }
+  
+  Link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
